@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<title>Project</title>
+
+<!-- Navbar -->
+<head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Comparisons.html">Comparisons</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Visual 1</a>
+          <a class="dropdown-item" href="#">Visual 2</a>
+          <a class="dropdown-item" href="#">Visuals 3 and 4</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+</head>
+
+
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 bg-light">
+        <img src="WebVisualizations/1.png">
+        <p><em>Latitude vs. Temperature in the Northern Hemisphere</em></p>
+        <p>The purpose of this project was to analyze how weather changes as one gets closer to the equator. For this nalysis, I pulled data from the OpenWeatherMap API and assembled a dataset of over 500 cities.</p>
+        <p>After assembling and tidying the dataset, I used Matplotlib to plot data and isolate variables, studying changes in weather vs. latitude. This site provides exmples of the variables wind and temperature for the northern and southern hemispheres.</p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3 bg-light pad top">
+        <p>Placeholder text for summary section. This will also hold pictures for visuals that appear on other pages. A summary of information will be placed in this container. </p>
+          <a href="NHTemp.html">
+          <img src="WebVisualizations/1.png">
+          </a>
+          <a href="SHTemp.html">
+            <img src="WebVisualizations/2.png">
+          </a>
+          <a href="NHWind.html">
+            <img src="WebVisualizations/NHWind.png">
+          </a>
+          <a href="SHWind.html">
+            <img src="WebVisualizations/SHWind.png">
+          </a>
+    </div>
+  </div>
+
+</body>
+</div>
+
+</html>
+  
